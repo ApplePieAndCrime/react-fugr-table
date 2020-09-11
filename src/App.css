@@ -1,0 +1,28 @@
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 0;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+.btn-add {
+  height: 2rem;
+  width: 2rem;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 910px) {
+  .panel {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .title {
+    width: 100%;
+  }
+  .search-container {
+    min-width: 60%;
+  }
+}
