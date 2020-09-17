@@ -1,0 +1,15 @@
+.sort {
+  .svg {
+    display: none;
+  }
+
+  .ordered {
+    display: inline;
+    transform: rotate(0);
+  }
+
+  .ordered-rotated {
+    display: inline;
+    transform: rotate(180deg);
+  }
+}
